@@ -16,18 +16,36 @@ const app = express();
 // Connect Database
 connectDB();
 
+// Middleware
+app.use(express.json());
+const corsOptions = {
+  origin: function (origin, callback) {
+    const allowedPatterns = [
+      /^http:\/\/localhost:5173$/,
+      /^https:\/\/travel-safe-ai-jqdm.*vercel\.app$/,
+    ];
 
+    if (!origin || allowedPatterns.some((pattern) => pattern.test(origin))) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true,
+};
 
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
-);
+app.use(cors(corsOptions));
 
-app.use('/uploads', express.static('uploads'));
+// app.use(
+//   cors({
+//     origin: "http://localhost:5173",
+//     credentials: true,
+//   })
+// );
 
-app.use(morgan("dev"));
+// app.use('/uploads', express.static('uploads'));
+
+// app.use(morgan("dev"));
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
