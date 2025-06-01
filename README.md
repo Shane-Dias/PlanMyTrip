@@ -4,7 +4,7 @@
 
    <h2>🌍 Overview</h2>
    <p>
-     <strong>PlanMyTrip</strong> is an innovative, real-time travel planning and safety platform that empowers users with detailed, location-based insights. It combines the power of crowdsourcing, AI, blockchain, and interactive mapping to offer a smarter and safer travel experience. From crime hotspots to weather alerts and AI risk forecasting, this tool ensures that your journey is not just personalized — but protected.
+     <strong>PlanMyTrip</strong> is an innovative, real-time travel planning and safety platform that empowers users with detailed, location-based insights. It combines the power of crowdsourcing, AI and interactive mapping to offer a smarter and safer travel experience. From crime hotspots to weather alerts and AI risk forecasting, this tool ensures that your journey is not just personalized — but protected.
    </p>
    <p>
      Built using modern web technologies like <strong>React + Vite</strong>, <strong>Node.js + Express</strong>, <strong>MongoDB</strong>, and enhanced with <strong>Google Gemini LLM</strong> for smart conversations, it seamlessly integrates <strong>OpenStreetMap</strong> for an intuitive travel interface filled with real-time visuals and helpful emojis 🌦️📍🛡️.
@@ -27,10 +27,9 @@
      <li><img src="./frontend/public/maproute.png" alt="Route Safety Image" /></li>
    </ul>
 
-   <h3>🛡️ 3. Crowdsourced Safety Reports + Blockchain Verification</h3>
+   <h3>🛡️ 3. Crowdsourced Safety Reports </h3>
    <ul>
      <li>Users can report live events such as protests, unsafe neighborhoods, or blocked roads 📝.</li>
-     <li>Blockchain is used to verify the authenticity and integrity of reports ⛓️✅.</li>
      <li>These verified reports are added into the live safety scoring system for all users 🔄.</li>
      <li><img src="./frontend/public/community.png" alt="Crowdsourced Reports" /></li>
    </ul>
@@ -67,7 +66,6 @@
      <li><strong>Maps:</strong> OpenStreetMap+ Leaflet + Custom Icons 🗺️</li>
      <li><strong>Weather:</strong> OpenWeatherMaps API ☁️</li>
      <li><strong>AI:</strong> Google Gemini LLM 💡</li>
-     <li><strong>Security:</strong> Blockchain Integration ⛓️</li>
    </ul>
 
    <h2>🔗 Live Demo & Repository</h2>
