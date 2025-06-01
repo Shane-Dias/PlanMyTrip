@@ -68,10 +68,10 @@
      <li><strong>AI:</strong> Google Gemini LLM 💡</li>
    </ul>
 
-   <h2>🔗 Live Demo & Repository</h2>
+   <h2>🔗 Live Demo & Video</h2>
    <p>
-     👉 <strong>Live Demo:</strong> [Your hosted link here] <br/>
-     💻 <strong>GitHub Repo:</strong> [Your repo link here]
+     👉 <strong>Live Demo:</strong> [https://travel-safe-ai-jqdm.vercel.app/] <br/>
+     💻 <strong>Video:</strong> [https://drive.google.com/file/d/1i2c1owSVmzhyKBob3Wsdca4-caPd9Aov/view?usp=sharing]
    </p>
  </body>
 </html>
