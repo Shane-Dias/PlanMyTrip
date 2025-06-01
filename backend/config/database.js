@@ -12,6 +12,4 @@ const connectDB = async () => {
   }
 };
 
-// MONGO_URI=mongodb://localhost:27017/TravelSafe
-
 module.exports = connectDB;
