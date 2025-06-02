@@ -10,7 +10,7 @@
          This project leverages cutting-edge technologies such as MongoDB, React + Vite, Node + Express, and integrates Google Gemini LLM for natural language processing to provide real-time travel insights. OpenStreetMap data is also incorporated, with emojis and detailed information, for a more user-friendly experience.
      </p>
  
-    <h2>Features</h2>
+  
  
    <h3>1. Real-Time Crime and Safety Insights 🚨</h3>
      <ul>
